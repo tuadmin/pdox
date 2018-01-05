@@ -12,7 +12,7 @@ composer.json file:
 ```json
 {
     "require": {
-        "izniburak/pdox": "dev-master"
+        "tuadmin/pdox": "dev-master"
     }
 }
 ```
@@ -24,7 +24,7 @@ $ composer install
 OR run the following command directly.
 
 ```
-$ composer require izniburak/pdox:dev-master
+$ composer require tuadmin/pdox:dev-master
 ```
 
 ## Example Usage
@@ -52,6 +52,17 @@ $records = $db->table('users')
 		->getAll();
 
 var_dump($records);
+//other example
+$db = new \Buki\Pdox([
+	'host'		=> '192.168.1.2:3607',
+	'driver'	=> 'mysql',
+	'database'	=> 'test',
+	'username'	=> 'root',
+	'password'	=> '']);
+$records = $db->table('users')
+		->select('id, name, surname, age')
+		->getAll();
+var_dump($records);		
 ```
 
 ## Docs 
