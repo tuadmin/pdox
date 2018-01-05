@@ -3,13 +3,13 @@
     "type": "library",
     "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.(FIXED by tuadmin)",
     "keywords": ["php","pdo","orm","sql","query","builder"],
-    "homepage": "https://github.com/izniburak/PDOx",
+    "homepage": "https://github.com/tuadmin/PDOx",
     "license": "MIT",
     "authors": [
         {
             "name": "İzni Burak Demirtaş|tuadmin",
-            "email": "info@burakdemirtas.org",
-            "homepage": "http://burakdemirtas.org"
+            "email": "tuadmin@github.com",
+            "homepage": "http://asibolivia.com"
         }
     ],
     "require": {
