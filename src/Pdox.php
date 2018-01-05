@@ -46,7 +46,7 @@ class Pdox
   public function __construct(Array $config)
   {
     //fix error with other host and other port 
-    if(!isset($config["host"]){
+    if(!isset($config["host"])){
       $config["host"] = "localhost";
     }
        @list($config["host"],$config["port"]) = explode(":",$config["host"]);
